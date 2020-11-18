@@ -1,8 +1,9 @@
-package br.edu.infnet.tp3_android_perfil_investidor
+package br.edu.infnet.tp3_android_perfil_investidor.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import br.edu.infnet.tp3_android_perfil_investidor.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

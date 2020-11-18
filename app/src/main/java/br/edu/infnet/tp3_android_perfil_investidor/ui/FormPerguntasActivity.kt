@@ -1,7 +1,8 @@
-package br.edu.infnet.tp3_android_perfil_investidor
+package br.edu.infnet.tp3_android_perfil_investidor.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import br.edu.infnet.tp3_android_perfil_investidor.R
 
 class FormPerguntasActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
