@@ -26,5 +26,68 @@
         android:id="@+id/questaoDoisFragment"
         android:name="br.edu.infnet.tp3_android_perfil_investidor.ui.fragments.QuestaoDoisFragment"
         android:label="fragment_questao_dois"
-        tools:layout="@layout/fragment_questao_dois" />
+        tools:layout="@layout/fragment_questao_dois" >
+        <action
+            android:id="@+id/action_questaoDoisFragment_to_questaoTresFragment"
+            app:destination="@id/questaoTresFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questaoTresFragment"
+        android:name="br.edu.infnet.tp3_android_perfil_investidor.ui.fragments.QuestaoTresFragment"
+        android:label="fragment_questao_tres"
+        tools:layout="@layout/fragment_questao_tres" >
+        <action
+            android:id="@+id/action_questaoTresFragment_to_questaoQuatroFragment"
+            app:destination="@id/questaoQuatroFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questaoQuatroFragment"
+        android:name="br.edu.infnet.tp3_android_perfil_investidor.ui.fragments.QuestaoQuatroFragment"
+        android:label="fragment_questao_quatro"
+        tools:layout="@layout/fragment_questao_quatro" >
+        <action
+            android:id="@+id/action_questaoQuatroFragment_to_questaoCincoFragment"
+            app:destination="@id/questaoCincoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questaoCincoFragment"
+        android:name="br.edu.infnet.tp3_android_perfil_investidor.ui.fragments.QuestaoCincoFragment"
+        android:label="fragment_questao_cinco"
+        tools:layout="@layout/fragment_questao_cinco" >
+        <action
+            android:id="@+id/action_questaoCincoFragment_to_questaoSeisFragment"
+            app:destination="@id/questaoSeisFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questaoSeisFragment"
+        android:name="br.edu.infnet.tp3_android_perfil_investidor.ui.fragments.QuestaoSeisFragment"
+        android:label="fragment_questao_seis"
+        tools:layout="@layout/fragment_questao_seis" >
+        <action
+            android:id="@+id/action_questaoSeisFragment_to_questaoSeteFragment"
+            app:destination="@id/questaoSeteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questaoSeteFragment"
+        android:name="br.edu.infnet.tp3_android_perfil_investidor.ui.fragments.QuestaoSeteFragment"
+        android:label="fragment_questao_sete"
+        tools:layout="@layout/fragment_questao_sete" >
+        <action
+            android:id="@+id/action_questaoSeteFragment_to_questaoOitoFragment"
+            app:destination="@id/questaoOitoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questaoOitoFragment"
+        android:name="br.edu.infnet.tp3_android_perfil_investidor.ui.fragments.QuestaoOitoFragment"
+        android:label="fragment_questao_oito"
+        tools:layout="@layout/fragment_questao_oito" >
+        <action
+            android:id="@+id/action_questaoOitoFragment_to_questaoNoveFragment"
+            app:destination="@id/questaoNoveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questaoNoveFragment"
+        android:name="br.edu.infnet.tp3_android_perfil_investidor.ui.fragments.QuestaoNoveFragment"
+        android:label="fragment_questao_nove"
+        tools:layout="@layout/fragment_questao_nove" />
 </navigation>

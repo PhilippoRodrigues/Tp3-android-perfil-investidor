@@ -2,15 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout2"
+    android:id="@+id/frameLayout10"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.QuestaoUmFragment">
-
-    <!-- TODO: Update blank fragment layout -->
+    tools:context=".ui.fragments.QuestaoOitoFragment">
 
     <fragment
-        android:id="@+id/fragment2"
+        android:id="@+id/fragment9"
         android:name="br.edu.infnet.tp3_android_perfil_investidor.ui.fragments.FormPerguntasFragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -22,76 +20,78 @@
         tools:layout="@layout/activity_form_perguntas" />
 
     <TextView
-        android:id="@+id/textViewTituloQuestaoUm"
+        android:id="@+id/textViewTituloQuestaoOito"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="serif"
-        android:text="Questão 1"
+        android:text="Questão 8"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fragment2" />
+        app:layout_constraintTop_toBottomOf="@+id/fragment9" />
 
     <TextView
-        android:id="@+id/textViewQuestaoUmFragment"
+        android:id="@+id/textViewQuestaoOitoFragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="Por quanto tempo você pretende deixar seu dinheiro investido?"
+        android:text=" Qual sua faixa de renda mensal média?"
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTituloQuestaoUm" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewTituloQuestaoOito" />
 
     <RadioGroup
-        android:id="@+id/radioGroupQuestaoUm"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewQuestaoUmFragment">
+        android:id = "@+id/radioGroupQuestaoOito"
+        android:layout_width = "0dp"
+        android:layout_height = "wrap_content"
+        android:layout_marginStart = "8dp"
+        android:layout_marginTop = "16dp"
+        android:layout_marginEnd = "8dp"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintTop_toBottomOf = "@+id/textViewQuestaoOitoFragment">
 
         <RadioButton
-            android:id="@+id/radioButtonQuestaoUmA"
+            android:id="@+id/radioButtonQuestaoOitoA"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Menos de 6 meses"
+            android:text="Até R$ 1.000"
             android:textSize="18sp" />
 
         <RadioButton
-            android:id="@+id/radioButtonQuestaoUmB"
+            android:id="@+id/radioButtonQuestaoOitoB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Entre 6 meses e 1 ano"
+            android:text="De R$ 1.001 até R$ 5.000"
             android:textSize="18sp" />
 
         <RadioButton
-            android:id="@+id/radioButtonQuestaoUmC"
+            android:id="@+id/radioButtonQuestaoOitoC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Entre 1 ano e 3 anos"
+            android:text="De R$ 5.001 até R$ 10.000"
             android:textSize="18sp" />
 
         <RadioButton
-            android:id="@+id/radioButtonQuestaoUmD"
+            android:id="@+id/radioButtonQuestaoOitoD"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Acima de 3 anos"
+            android:text="Acima de R$ 10.000"
             android:textSize="18sp" />
 
     </RadioGroup>
 
     <Button
-        android:id="@+id/btnQuestaoUmProximoFragment"
+        android:id="@+id/btnQuestaoOitoProximoFragment"
         android:layout_width="121dp"
         android:layout_height="56dp"
         android:layout_marginStart="8dp"
@@ -101,5 +101,4 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
