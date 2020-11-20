@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/main_navigation"
+            app:startDestination = "@id/dashboardFragment">
+    <fragment
+        android:id = "@+id/dashboardFragment"
+        android:name = "br.edu.infnet.tp3_android_perfil_investidor.ui.fragments.DashboardFragment"
+        android:label = "fragment_dashboard"
+        tools:layout = "@layout/fragment_dashboard" >
+        <action
+            android:id = "@+id/action_dashboardFragment_to_questaoUmFragment"
+            app:destination = "@id/questaoUmFragment" />
+    </fragment>
+    <fragment
+        android:id = "@+id/questaoUmFragment"
+        android:name = "br.edu.infnet.tp3_android_perfil_investidor.ui.fragments.QuestaoUmFragment"
+        android:label = "fragment_questao_um"
+        tools:layout = "@layout/fragment_questao_um" >
+        <action
+            android:id="@+id/action_questaoUmFragment_to_questaoDoisFragment"
+            app:destination="@id/questaoDoisFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questaoDoisFragment"
+        android:name="br.edu.infnet.tp3_android_perfil_investidor.ui.fragments.QuestaoDoisFragment"
+        android:label="fragment_questao_dois"
+        tools:layout="@layout/fragment_questao_dois" />
+</navigation>

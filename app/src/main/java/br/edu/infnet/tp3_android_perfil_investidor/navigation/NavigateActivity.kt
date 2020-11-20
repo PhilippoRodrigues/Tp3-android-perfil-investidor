@@ -1,12 +1,12 @@
-package br.edu.infnet.tp3_android_perfil_investidor.ui
+package br.edu.infnet.tp3_android_perfil_investidor.navigation
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 import br.edu.infnet.tp3_android_perfil_investidor.R
 
-class FormPerguntasActivity : AppCompatActivity() {
+class NavigateActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_form_perguntas)
+        setContentView(R.layout.activity_navigate)
     }
 }

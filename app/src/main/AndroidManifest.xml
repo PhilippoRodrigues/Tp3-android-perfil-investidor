@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Tp3androidperfilinvestidor">
-        <activity android:name=".ResultadoActivity"></activity>
-        <activity android:name=".ui.FormPerguntasActivity" />
-        <activity android:name=".ui.MainActivity">
+        <activity android:name=".navigation.NavigateActivity"></activity>
+        <activity android:name=".ui.activities.ResultadoActivity" />
+        <activity android:name=".ui.activities.FormPerguntasActivity" />
+        <activity android:name=".ui.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

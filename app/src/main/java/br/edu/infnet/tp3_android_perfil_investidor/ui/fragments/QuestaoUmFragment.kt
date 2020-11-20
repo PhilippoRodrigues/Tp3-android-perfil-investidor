@@ -1,4 +1,4 @@
-package br.edu.infnet.tp3_android_perfil_investidor.ui
+package br.edu.infnet.tp3_android_perfil_investidor.ui.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

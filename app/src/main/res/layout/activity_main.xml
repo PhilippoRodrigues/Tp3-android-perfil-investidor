@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.MainActivity">
+    tools:context=".ui.activities.MainActivity">
 
     <TextView
         android:id="@+id/textViewTituloAplicacao"
@@ -26,7 +26,7 @@
         android:layout_marginStart="150dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="150dp"
-        android:text="Questionário com objetivo de auxiliá-lo a identificar seu perfil de investidor (conservador, moderado ou arrojado) e recomendar os investimentos mais alinhados a esse perfil. Para cada questão, escolha a alternativa que mais se aproxima dos seus objetivos e expectativas de investimento."
+        android:text="@string/textoMainActivity"
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,7 +66,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
-        android:text="Começar"
+        android:text="Prosseguir"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNomeTelaInicial" />
