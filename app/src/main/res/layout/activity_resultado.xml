@@ -7,18 +7,37 @@
     tools:context=".ui.activities.ResultadoActivity">
 
     <TextView
-        android:id="@+id/textViewResultado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="156dp"
-        android:layout_marginEnd="8dp"
-        android:text="Resultado"
-        android:textSize="36sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id = "@+id/textViewResultado"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginStart = "8dp"
+        android:layout_marginTop = "156dp"
+        android:text = "Resultado:"
+        android:textSize = "24sp"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintTop_toTopOf = "parent" />
+
+    <TextView
+        android:id = "@+id/textViewValorResultado"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginStart = "8dp"
+        android:layout_marginTop = "156dp"
+        android:hint = "0"
+        android:textSize = "24sp"
+        app:layout_constraintStart_toEndOf = "@+id/textViewResultado"
+        app:layout_constraintTop_toTopOf = "parent" />
+
+    <TextView
+        android:id = "@+id/textViewTextoPontos"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginStart = "8dp"
+        android:layout_marginTop = "156dp"
+        android:text = "pontos"
+        android:textSize = "24sp"
+        app:layout_constraintStart_toEndOf = "@+id/textViewValorResultado"
+        app:layout_constraintTop_toTopOf = "parent" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"

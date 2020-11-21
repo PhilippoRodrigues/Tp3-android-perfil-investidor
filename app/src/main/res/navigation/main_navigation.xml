@@ -89,5 +89,14 @@
         android:id="@+id/questaoNoveFragment"
         android:name="br.edu.infnet.tp3_android_perfil_investidor.ui.fragments.QuestaoNoveFragment"
         android:label="fragment_questao_nove"
-        tools:layout="@layout/fragment_questao_nove" />
+        tools:layout="@layout/fragment_questao_nove" >
+        <action
+            android:id="@+id/action_questaoNoveFragment_to_resultadoActivity2"
+            app:destination="@id/resultadoActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/resultadoActivity"
+        android:name="br.edu.infnet.tp3_android_perfil_investidor.ui.activities.ResultadoActivity"
+        android:label="activity_resultado"
+        tools:layout="@layout/activity_resultado" />
 </navigation>

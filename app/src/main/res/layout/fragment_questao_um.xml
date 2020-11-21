@@ -61,11 +61,11 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewQuestaoUmFragment">
 
         <RadioButton
-            android:id="@+id/radioButtonQuestaoUmA"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Menos de 6 meses"
-            android:textSize="18sp" />
+            android:id = "@+id/radioButtonQuestaoUmA"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "Menos de 6 meses"
+            android:textSize = "18sp" />
 
         <RadioButton
             android:id="@+id/radioButtonQuestaoUmB"
